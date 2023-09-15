@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+.home_container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    background-image: url('https://wallpapercave.com/wp/wp12511120.png');
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title_container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    backdrop-filter: blur(10px);
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.title_container h1 {
+    text-align: center;
+    color: #090d33ac;
+}
+
+.get_start_button_container {
+    width: 200px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.get_start_button_container a {
+    width: 100%;
+    height: 100%;
+}
+
+.get_start_button_container a button {
+    width: 100%;
+    height: 100%;
+    background: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+    font-weight: bold;
+    color: #0b0f2ce6;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.203) 0px 0px 0px 1px;
+}
+
+.get_start_button_container a button:hover {
+    transform: scale(1.1);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;}
